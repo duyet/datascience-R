@@ -12,8 +12,11 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 
 ## 1. [Import  data](1-import-data/import-data.ipynb)
 
-1. `read.csv()`
+1. `read.csv()` - Đọc data.frame từ csv
 2. `stringsAsFactors = TRUE`
+3. `read.delim() & read.table()` - Đọc data.frame từ bất kỳ dạng file tabular nào.
+4. `summary()` - Thống kê miêu tả nhanh về data.frame
+5. `file.path()` - Tạo đường dẫn đến data.
 
 
 # How to contribute
