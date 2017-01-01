@@ -18,6 +18,7 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 4. `summary()` - Thống kê miêu tả nhanh về data.frame
 5. `file.path()` - Tạo đường dẫn đến data.
 6. Lọc dữ liệu với `which.min` và `which.max`
+7. Sử dụng `colClasses` để ignore một số cột khi import data.
 
 
 # How to contribute
