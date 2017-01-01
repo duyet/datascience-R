@@ -20,6 +20,8 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 6. Lọc dữ liệu với `which.min` và `which.max`
 7. Sử dụng `colClasses` để ignore một số cột khi import data.
 
+[Sử dụng package `readr`](1-import-data/readr-package.ipynb), thư viện này có một số hàm hay để đọc và xử lý data.frame.
+
 
 # How to contribute
 
