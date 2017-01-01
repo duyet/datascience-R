@@ -10,9 +10,9 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 1. Cài đặt [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/products/rstudio/download/).
 2. [Cài đặt R trên Jupiter Notebook (Ubuntu 14.04 / 14.10 / 16.04)](http://blog.duyetdev.com/2016/11/r-tren-jupiter-notebook-ubuntu-1404.html).
 
-# 1. Import  data
+# 1. [Import  data](1-import-data)
 
-1. Import CSV 
+1. Import CSV: [read.csv()](1-import-data/read.csv.ipynb)
 
 
 # How to contribute
