@@ -17,6 +17,7 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 3. `read.delim() & read.table()` - Đọc data.frame từ bất kỳ dạng file tabular nào.
 4. `summary()` - Thống kê miêu tả nhanh về data.frame
 5. `file.path()` - Tạo đường dẫn đến data.
+6. Lọc dữ liệu với `which.min` và `which.max`
 
 
 # How to contribute
