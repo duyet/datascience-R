@@ -22,6 +22,11 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 
 [Sử dụng package `readr`](1-import-data/readr-package.ipynb), thư viện này có một số hàm hay để đọc và xử lý data.frame.
 
+* `read_csv()`
+* `read_tsv()` đọc *.tsv file với tham số `col_names`
+* `read_delim()`
+* `skip` và `n_max` 
+* `col_types = "iiiiiddd"` parse datatype.
 
 # How to contribute
 
