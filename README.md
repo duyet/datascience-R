@@ -53,6 +53,12 @@ url_csv <- "http://s3.amazonaws.com/assets.datacamp.com/production/course_1478/d
 swimming_pools <- read.csv(url_csv)
 ```
 
+[Parse JSON với `jsonlite` package](1-import-data/JSON.ipynb)
+
+* `fromJSON()` parse từ raw JSON và URL.
+* `toJSON()` convert data.frame hoặc list sang **JSON** string.
+* `prettify()` - format JSON dạng "đẹp đẹp" dễ  đọc :D - `minify()` ngược lại.
+
 # How to contribute
 
 1. Fork the project on Github
