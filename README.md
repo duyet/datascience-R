@@ -45,6 +45,12 @@ Tham khảo thêm: https://github.com/hadley/readxl
 
 Tham khảo thêm: https://cran.r-project.org/web/packages/DBI/index.html
 
+[Import file từ URL](1-import-data/import-from-url.ipynb)
+Thư viện `read.csv`, `read.tsv`, ... của `utils` hoặc `readr` có thể đọc trực tiếp file từ URL. 
+```
+url_csv <- "http://s3.amazonaws.com/assets.datacamp.com/production/course_1478/datasets/swimming_pools.csv"
+swimming_pools <- read.csv(url_csv)
+```
 
 # How to contribute
 
