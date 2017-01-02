@@ -12,7 +12,7 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 
 ## 1. [Import  data](1-import-data/import-data.ipynb)
 
-`uitls` package (mặc định)
+`utils` package (mặc định)
 
 1. `read.csv()` - Đọc data.frame từ csv
 2. `stringsAsFactors = TRUE`
@@ -58,6 +58,9 @@ swimming_pools <- read.csv(url_csv)
 * `fromJSON()` parse từ raw JSON và URL.
 * `toJSON()` convert data.frame hoặc list sang **JSON** string.
 * `prettify()` - format JSON dạng "đẹp đẹp" dễ  đọc :D - `minify()` ngược lại.
+
+## 2. Cleaning Data 
+
 
 # How to contribute
 
