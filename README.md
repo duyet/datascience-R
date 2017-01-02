@@ -37,6 +37,14 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 
 Tham khảo thêm: https://github.com/hadley/readxl
 
+[Sử dụng R để kết nối tới CSDL, `DBI` package](1-import-data/DBI-package.ipynb)
+
+* `dbConnect()` kết nối đến CSDL `RMySQL::MySQL()`
+* `dbListTables()` liệt kê danh sách bảng.
+* ...
+
+Tham khảo thêm: https://cran.r-project.org/web/packages/DBI/index.html
+
 
 # How to contribute
 
