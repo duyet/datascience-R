@@ -12,6 +12,8 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 
 ## 1. [Import  data](1-import-data/import-data.ipynb)
 
+`uitls` package (mặc định)
+
 1. `read.csv()` - Đọc data.frame từ csv
 2. `stringsAsFactors = TRUE`
 3. `read.delim() & read.table()` - Đọc data.frame từ bất kỳ dạng file tabular nào.
@@ -27,6 +29,14 @@ Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng vớ
 * `read_delim()`
 * `skip` và `n_max` 
 * `col_types = "iiiiiddd"` parse datatype.
+
+[Xử lý Excel file với `readxl` package.](1-import-data/readxl-package.ipynb)
+
+* `excel_sheets()` liệt kê danh sách sheets name.
+* `read_excel()` import data.frame từ excel.
+
+Tham khảo thêm: https://github.com/hadley/readxl
+
 
 # How to contribute
 
