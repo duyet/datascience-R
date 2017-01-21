@@ -77,10 +77,10 @@ The data cleaning process:
  
 Visualizing data với 1 số hàm cơ bản 
 
-* `hist()` histogram data.
-    ![./2-cleaning-data/hist-mumbai.png](./2-cleaning-data/hist-mumbai.png)
-* `plot(x, y)`
-    ![./2-cleaning-data/plot-mumbai.png](./2-cleaning-data/plot-mumbai.png)
+* `hist(x)` histogram, biểu đồ tần số của giá trị `x`.
+    <img src="./2-cleaning-data/hist-mumbai.png" width="200" />
+* `plot(x, y)`, biểu diễn 2 giá trị `x` và `y` trên trục.
+    <img src="./2-cleaning-data/plot-mumbai.png" width="200" />
 
 
 # How to contribute
