@@ -1,6 +1,6 @@
 # datascience-R
 
-Repo này ghi chép lại cách mà một Data Engineer / Data Science xử lý dữ liệu với R. Mình tự học, đang làm việc về ngành khoa học dữ liệu này. Mình bắt đầu với R, là một ngôn ngữ khá mạnh (bên cạnh Python) để xử lý dữ liệu.
+Repo này ghi chép lại cách mà một Data Engineer / Data Science xử lý dữ liệu với R. Mình tự học, đang làm việc về ngành khoa học dữ liệu. Sau `Python` thì mình bắt đầu với R, là một ngôn ngữ khá mạnh để xử lý dữ liệu.
 
 Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng với Notebook cụ thể, cập nhật thường xuyên theo những gì mà mình học được. Một số bài viết hoàn chỉnh mà mình đúc kết được cũng có thể được đăng ở https://blog.duyetdev.com 
 
@@ -59,7 +59,28 @@ swimming_pools <- read.csv(url_csv)
 * `toJSON()` convert data.frame hoặc list sang **JSON** string.
 * `prettify()` - format JSON dạng "đẹp đẹp" dễ  đọc :D - `minify()` ngược lại.
 
-## 2. Cleaning Data 
+## 2. [Cleaning Data ](2-cleaning-data/cleaning-data.ipynb)
+
+The data cleaning process: 
+ - Preparing data for analysis
+ - Exploring raw data 
+ - Tidying data
+
+ * `head()` và `tail` để xem 1 phầ n của dataframe.
+ * `str(data.frame)` xem cấu trúc dataframe.
+ * `dim()` chiều dữ liệu và `names(df)` xem các cột của df.
+ 
+ Ngoài ra 1 thư viện rất hay được sử dụng là `dplyr`
+ 
+  * `glimpse()` có chức năng tương tự `str()`
+  * `summary(Mumbai2013)` summary data.
+ 
+Visualizing data với 1 số hàm cơ bản 
+
+* `hist()` histogram data.
+    ![./2-cleaning-data/hist-mumbai.png](./2-cleaning-data/hist-mumbai.png)
+* `plot(x, y)`
+    ![./2-cleaning-data/plot-mumbai.png](./2-cleaning-data/plot-mumbai.png)
 
 
 # How to contribute
