@@ -2,13 +2,13 @@
 
 Repo này ghi chép lại cách mà một Data Engineer / Data Science xử lý dữ liệu với R. Mình tự học, đang làm việc về ngành khoa học dữ liệu. Sau `Python` thì mình bắt đầu với R, là một ngôn ngữ khá mạnh để xử lý dữ liệu.
 
-Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng với Notebook cụ thể, cập nhật thường xuyên theo những gì mà mình học được. Một số bài viết hoàn chỉnh mà mình đúc kết được cũng có thể được đăng ở https://blog.duyetdev.com 
+Mỗi chương / phần lớn sẽ được đặt trong 1 thư mục cùng với Notebook cụ thể, cập nhật thường xuyên theo những gì mà mình học được. Một số bài viết hoàn chỉnh mà mình đúc kết được cũng có thể được đăng ở https://blog.duyet.net
 
 
 # 0. Getting started
 
 1. Cài đặt [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/products/rstudio/download/).
-2. [Cài đặt R trên Jupiter Notebook (Ubuntu 14.04 / 14.10 / 16.04)](http://blog.duyetdev.com/2016/11/r-tren-jupiter-notebook-ubuntu-1404.html).
+2. [Cài đặt R trên Jupiter Notebook (Ubuntu 14.04 / 14.10 / 16.04)](http://blog.duyet.net/2016/11/r-tren-jupiter-notebook-ubuntu-1404.html).
 
 ## 1. [Import  data](1-import-data/import-data.ipynb)
 
